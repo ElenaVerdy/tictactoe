@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TicTacToe</title>
+	<link rel="stylesheet" href="external.css">
+</head>
+<body>
+
+<div id = "container">
+	<div class = "toTheRight">
+		<div>
+			<h2>TicTacToe</h2>
+		</div>
+		
+		<div class = "checkBoxes">
+			<input type="radio" name = "checkBoxes" id = "twoPlayers"><label for="twoPlayers">Two Players</label> <br>
+		</div>
+		<div class = "checkBoxes">
+		 	<input type="radio" name = "checkBoxes" checked = "checked" id = "onePlayer"><label for="onePlayer">One Player</label>
+		 </div> <br>
+		
+		<h3 id = "result"></h3>
+		<button id = "res">Restart</button>
+	</div>
+
+	<table border="7" cellspacing="2" cellpadding="2" class="toTheRight">
+		<tr>
+			<td><input type="button" name = "cell" id = "11" class = "btn"></td>
+			<td><input type="button" name = "cell" id = "12" class = "btn"></td>
+			<td><input type="button" name = "cell" id = "13" class = "btn"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name = "cell" id = "21" class = "btn"></td>
+			<td><input type="button" name = "cell" id = "22" class = "btn"></td>
+			<td><input type="button" name = "cell" id = "23" class = "btn"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name = "cell" id = "31" class = "btn"></td>
+			<td><input type="button" name = "cell" id = "32" class = "btn"></td>
+			<td><input type="button" name = "cell" id = "33" class = "btn"></td>
+		</tr>
+	</table> <br>
+</div>
+<script src="tictactoe.js"></script>
+</body>
+</html>
